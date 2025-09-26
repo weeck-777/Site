@@ -26,5 +26,4 @@
       display: block;
       text-decoration: none;
       color: #ffffff;
-      background-color: #0088cc;
-      padding:
+      background-color: #0088
