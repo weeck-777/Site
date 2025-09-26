@@ -14,16 +14,35 @@
       font-family: Arial, sans-serif;
       text-align: center;
     }
-    .box {
+    .container {
       background-color: #ffffff; /* White box */
-      padding: 30px 20px;
+      padding: 30px;
       border-radius: 10px;
       box-shadow: 0 4px 10px rgba(0,0,0,0.1);
       max-width: 350px;
     }
-    h1 { margin-bottom: 20px; }
-    a.button {
+    h1 {
+      margin-bottom: 20px;
+    }
+    .button {
       display: block;
+      width: 100%;
       text-decoration: none;
-      color: #ffffff;
-      background-color: #0088
+      color: white;
+      background-color: #0088cc;
+      padding: 12px 0;
+      border-radius: 8px;
+      margin: 10px 0;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Contact Me</h1>
+    <a class="button" href="https://t.me/Rlunt" target="_blank">Telegram Channel</a>
+    <a class="button" href="https://t.me/weeck" target="_blank">Telegram Direct</a>
+    <a class="button" href="https://www.instagram.com/t.xcry" target="_blank">Instagram Page</a>
+  </div>
+</body>
+</html>
